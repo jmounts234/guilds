@@ -1,0 +1,12 @@
+ar express = require("express");
+var path = require("path");
+var fs = require("fs");
+
+var app = express();
+
+
+//1. Logging
+app.use(function(req, res, next) {
+    console.log("Request IP: " + req.url);
+    console.log("Request date: " + new Date());
+    next();

@@ -1,0 +1,8 @@
+pm init -y
+$ npm install express
+$ mkdir static
+$ touch static/dummy_file.txt
+$ touch static/dummy_file2.txt
+$ echo file1 > static/dummy_file.txt
+$ echo file2 > static/dummy_file2.txt
+$ touch app.js
